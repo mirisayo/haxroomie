@@ -87,16 +87,16 @@ Object.assign(
 
       room.onPlayerJoin = (player) => {
         room.sendAnnouncement(
-          'This room is running on Haxroomie. Haxroomie stands for peace ' +
-            'and solidarity against tyranny.',
+          '' 
+            '',
           player.id,
           0x0057b7,
           'bold'
         );
         room.sendAnnouncement(
-          '“I know not with what weapons World War III will be fought, but ' +
-            'World War IV will be fought with sticks and stones.” ' +
-            '- Albert Einstein',
+          '“ ' 
+            '” ' 
+            '',
           player.id,
           0xffdd00,
           'bold'
